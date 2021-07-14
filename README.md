@@ -16,6 +16,9 @@ Rust 練習用の コマンドライン TODO アプリです
 $ cargo run add "study rust"
 ```
 
+作成されたデータは、ルートディレクトリに `.rusty-journal.json` というファイル名で保存されます  
+また、 `-j test.json` のように、保存するファイルを指定することもできます
+
 ### タスク確認
 
 ```
@@ -31,7 +34,7 @@ $ cargo run list
 ### タスク削除
 
 ```
-$ cargo run done 3
+$ cargo run done 2
 ```
 ※ done の後に指定する番号は、タスク確認コマンドで表示された番号
 
